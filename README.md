@@ -11,18 +11,27 @@ apt-get install curl
 
 To install libraries required for the project use  
 pip3 install Flask --no-cache-dir
+
 pip3 install requests  --no-cache-dir
+
 pip3 install mysqlclient --no-cache-dir
+
 pip3 install mysql-connector-python-rf --no-cache-dir
+
 pip3 install mysql-connector-python3 --no-cache-dir
+
 pip3 install flask-session --no-cache-dir
+
 
 To start mysql server run below command 
 service mysql start &
+
 To load the database with test data use below command by replacing file name with sql.txt
+
 mysql -u [username] -p [database_name] < [filename].sql
 
 To run the api script use 
+
 python movies.apy
 
 To test the project run below curl commands 
