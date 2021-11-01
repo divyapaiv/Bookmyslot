@@ -27,14 +27,25 @@ python movies.apy
 
 To test the project run below curl commands 
 Find shows by city. 
+
 curl -X POST -d "cityname=Bangalore" "http://127.0.0.1:5000/moviesbycity"
+
 Login 
+
+
 curl -X POST -d "username=<username>&password=<password>" "http://127.0.0.1:5000/login"
+  
 Signup 
+  
+  
 curl -X POST -d "username=<username>&password=<password>" "http://127.0.0.1:5000/signup"
+  
 bookticket 
+  
 curl -X POST -d "schedule_id=<schedule_id>&count=<count>" "http://127.0.0.1:5000/bookticket"
+  
 checkavailableseats 
+  
 curl -X POST -d "moviesname=<moviesname>" "http://127.0.0.1:5000/checkavailableseats"
   
 
