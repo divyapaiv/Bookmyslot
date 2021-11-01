@@ -15,7 +15,7 @@ RUN pip3 install mysql-connector-python
 RUN pip3 install flask-session
 
 RUN pip3 install passlib
-ADD app.py /
+ADD movies.py /
 ADD sql.txt /
 WORKDIR /
 
